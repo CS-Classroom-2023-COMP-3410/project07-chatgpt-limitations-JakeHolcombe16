@@ -1,0 +1,1 @@
+I changed some of the JavaScript that dealt with the sizing of the box after expanding, if you set it the media query at about 735 pixels to the width of 60% it will stay in the border of the fruit

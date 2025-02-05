@@ -253,3 +253,12 @@ h1 {
   transform: rotateY(180deg);
   display: flex;
 }
+
+@media screen and (max-width: 735px) {
+  /* .grid {
+    grid-template-columns: repeat(3, 1fr);
+  } */
+  .game-container {
+    width: 60%;
+  }
+}

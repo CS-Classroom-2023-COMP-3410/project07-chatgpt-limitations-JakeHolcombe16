@@ -216,7 +216,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const startButton = document.getElementById("start-button");
 
   startButton.addEventListener("click", () => {
-      gameContainer.style.width = "min(80vw, 600px)"; /* Expand Game */
+    if (window.innerWidth <= 735) {
+      document.querySelector('.game-container').style.width = '60%';
+  }
       gameContainer.style.top = "calc(50% + 20px)"; /* Move Down */
       gameGrid.style.display = "grid"; /* Show Grid */
       generateFruitBorder(); /* Adjust Border */
